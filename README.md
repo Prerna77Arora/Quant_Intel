@@ -669,38 +669,7 @@ npm run dev
 
 ---
 
-## 📸 Screenshots & Demo
 
-### **1. DataBase**
-
-
-![Loading Screen](DB.png)
-
----
-
-### **2. User Onboarding - Profile Setup**
-
-#### Risk Appetite Assessment
-*Users define their risk tolerance for AI-personalized recommendations*
-
-![Risk Appetite](Images/risk-appetite.png)
-
-#### Investment Horizon Selection
-*Define investment timeframe to shape recommendation strategy*
-
-![Investment Horizon](Imagesinvestmenthorizon.png.png)
-
-#### Profile Success
-*Personalized AI trading profile created with customized settings*
-
-![Profile Created](Images/profilecreated.png)
-
----
-
-### **3. Main Dashboard**
-*Portfolio overview with real-time metrics and performance tracking*
-
-![Dashboard](Images/dashboard.png)
 
 **Features shown:**
 - 📊 Portfolio performance metrics (Total Investment, Total Profit, Unrealized Loss)
