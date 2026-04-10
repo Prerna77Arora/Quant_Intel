@@ -688,7 +688,7 @@ npm run dev
 #### Investment Horizon Selection
 *Define investment timeframe to shape recommendation strategy*
 
-![Investment Horizon](Images/investmenthorizon.png)
+![Investment Horizon](Imagesinvestmenthorizon.png.png)
 
 #### Profile Success
 *Personalized AI trading profile created with customized settings*
