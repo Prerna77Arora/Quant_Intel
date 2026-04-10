@@ -1,8 +1,8 @@
-# 🚀 TradeMind - AI-Powered Stock Intelligence Platform
+# 🚀 Quant-Intel - AI-Powered Stock Intelligence Platform
 
 <div align="center">
 
-![TradeMind](https://img.shields.io/badge/TradeMind-FinTech-blue?style=for-the-badge&logo=python)
+![Quant-Intel](https://img.shields.io/badge/TradeMind-FinTech-blue?style=for-the-badge&logo=python)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-blue?style=for-the-badge)
 ![React](https://img.shields.io/badge/React-19+-61DAFB?style=for-the-badge&logo=react)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Latest-336791?style=for-the-badge&logo=postgresql)
