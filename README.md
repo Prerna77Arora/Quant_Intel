@@ -669,38 +669,7 @@ npm run dev
 
 ---
 
-## 📸 Screenshots & Demo
 
-### **1. Loading Screen**
-*Application initialization with branding*
-
-![Loading Screen](Images/loading-screen.png)
-
----
-
-### **2. User Onboarding - Profile Setup**
-
-#### Risk Appetite Assessment
-*Users define their risk tolerance for AI-personalized recommendations*
-
-![Risk Appetite](Images/risk-appetite.png)
-
-#### Investment Horizon Selection
-*Define investment timeframe to shape recommendation strategy*
-
-![Investment Horizon](Images/investment-horizon.png)
-
-#### Profile Success
-*Personalized AI trading profile created with customized settings*
-
-![Profile Created](Images/profile-created.png)
-
----
-
-### **3. Main Dashboard**
-*Portfolio overview with real-time metrics and performance tracking*
-
-![Dashboard](Images/dashboard.png)
 
 **Features shown:**
 - 📊 Portfolio performance metrics (Total Investment, Total Profit, Unrealized Loss)
@@ -710,11 +679,6 @@ npm run dev
 - ✨ Personalized greeting with profile status
 
 ---
-
-### **4. Stock Analysis Page**
-*AI-powered detailed stock analysis with predictions*
-
-![Stock Analysis](Images/stock-analysis.png)
 
 **Features shown:**
 - 🤖 AI Confidence Score (82% for shown example)
