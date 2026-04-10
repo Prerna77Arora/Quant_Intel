@@ -1,4 +1,4 @@
-# 🚀 Quant-Intel - AI-Powered Stock Intelligence Platform
+# 🚀 TradeMind - AI-Powered Stock Intelligence Platform
 
 <div align="center">
 
@@ -669,6 +669,105 @@ npm run dev
 
 ---
 
+## 📸 Screenshots & Demo
+
+### **1. Loading Screen**
+*Application initialization with branding*
+
+![Loading Screen](Images/loading-screen.png)
+
+---
+
+### **2. User Onboarding - Profile Setup**
+
+#### Risk Appetite Assessment
+*Users define their risk tolerance for AI-personalized recommendations*
+
+![Risk Appetite](Images/risk-appetite.png)
+
+#### Investment Horizon Selection
+*Define investment timeframe to shape recommendation strategy*
+
+![Investment Horizon](Images/investment-horizon.png)
+
+#### Profile Success
+*Personalized AI trading profile created with customized settings*
+
+![Profile Created](Images/profile-created.png)
+
+---
+
+### **3. Main Dashboard**
+*Portfolio overview with real-time metrics and performance tracking*
+
+![Dashboard](Images/dashboard.png)
+
+**Features shown:**
+- 📊 Portfolio performance metrics (Total Investment, Total Profit, Unrealized Loss)
+- 📈 AI Risk Score assessment
+- 💹 Portfolio performance chart with multiple timeframes (1D, 1W, 1M, 1Y)
+- 👁️ Watchlist with real-time ticker information
+- ✨ Personalized greeting with profile status
+
+---
+
+### **4. Stock Analysis Page**
+*AI-powered detailed stock analysis with predictions*
+
+![Stock Analysis](Images/stock-analysis.png)
+
+**Features shown:**
+- 🤖 AI Confidence Score (82% for shown example)
+- 💰 Current stock price with daily change
+- 📊 Key metrics (Market Cap, P/E Ratio, 52W High/Low)
+- 🎯 AI Prediction Signal (BUY/SELL/HOLD with justification)
+- 📉 Technical analysis summary
+- 🔔 AI Signal alerts
+
+---
+
+### **5. AI Investment Chatbot**
+*Real-time conversational investment guidance*
+
+![AI Chatbot](Images/chatbot.png)
+
+**Features shown:**
+- 💬 Natural language conversation interface
+- 🤖 AI Assistant with investment expertise
+- 📊 Context-aware responses based on portfolio
+- 💡 Quick action suggestions (Buy stock, Portfolio risk, Today's picks)
+- 📈 Integrated data visualization
+- ⚡ Real-time response generation
+
+---
+
+### **6. Database - Stock Data Management**
+*Real-time stock data stored in PostgreSQL via Supabase*
+
+![Stock Data](Images/stock-data-table.png)
+
+**Tables shown:**
+- OHLC data (Open, High, Low, Close prices)
+- Multiple stocks tracked (AAPL, MSFT, etc.)
+- Time-series data for ML predictions
+- Real-time data feed
+
+---
+
+### **7. Database - User Management**
+*Secure user authentication and profile storage*
+
+![Users Table](Images/users-table.png)
+
+**Data stored:**
+- User email authentication
+- Bcrypt hashed passwords
+- User roles (user, admin)
+- Investment preferences
+- Risk profile data
+
+---
+
 ## 🧪 Testing
 
 ```bash
@@ -724,6 +823,6 @@ MIT License - See LICENSE file
 
 **Built with ❤️ for smarter investing**
 
-⭐ If Quant-Inntel helped you, consider giving it a star!
+⭐ If TradeMind helped you, consider giving it a star!
 
 </div>
