@@ -1,4 +1,4 @@
-# 🚀 TradeMind - AI-Powered Stock Intelligence Platform
+# 🚀 Quant-Intel - AI-Powered Stock Intelligence Platform
 
 <div align="center">
 
@@ -724,6 +724,6 @@ MIT License - See LICENSE file
 
 **Built with ❤️ for smarter investing**
 
-⭐ If TradeMind helped you, consider giving it a star!
+⭐ If Quant-Inntel helped you, consider giving it a star!
 
 </div>
