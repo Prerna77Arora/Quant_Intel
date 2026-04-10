@@ -1,0 +1,186 @@
+2026-04-08 22:29:54,038 | INFO | Fetched data for AAPL
+2026-04-08 22:29:54,045 | INFO | Cleaned data for AAPL
+2026-04-08 22:29:54,112 | ERROR | DB error: (psycopg2.ProgrammingError) can't adapt type 'Series'
+[SQL: INSERT INTO stock_data (symbol, date, open, high, low, close, volume) SELECT p0::VARCHAR, p1::DATE, p2::FLOAT, p3::FLOAT, p4::FLOAT, p5::FLOAT, p6::FLOAT FROM (VALUES (%(symbol__0)s, %(date__0)s, %(open__0)s, %(high__0)s, %(low__0)s, %(close__0)s, %( ... 437 characters truncated ... 2, p3, p4, p5, p6, sen_counter) ORDER BY sen_counter RETURNING stock_data.id, stock_data.id AS id__1]
+[parameters: {'open__0': Ticker
+AAPL    254.080002
+Name: 0, dtype: object, 'symbol__0': Ticker
+    AAPL
+Name: 0, dtype: str, 'close__0': Ticker
+AAPL    255.630005
+Name: 0, dtype: object, 'date__0': Ticker
+   2026-04-01
+Name: 0, dtype: datetime64[s], 'high__0': Ticker
+AAPL    256.179993
+Name: 0, dtype: object, 'volume__0': Ticker
+AAPL    40059400
+Name: 0, dtype: object, 'low__0': Ticker
+AAPL    253.330002
+Name: 0, dtype: object, 'open__1': Ticker
+AAPL    254.199997
+Name: 1, dtype: object, 'symbol__1': Ticker
+    AAPL
+Name: 1, dtype: str, 'close__1': Ticker
+AAPL    255.919998
+Name: 1, dtype: object, 'date__1': Ticker
+   2026-04-02
+Name: 1, dtype: datetime64[s], 'high__1': Ticker
+AAPL    256.130005
+Name: 1, dtype: object, 'volume__1': Ticker
+AAPL    31289400
+Name: 1, dtype: object, 'low__1': Ticker
+AAPL    250.649994
+Name: 1, dtype: object, 'open__2': Ticker
+AAPL    256.51001
+Name: 2, dtype: object, 'symbol__2': Ticker
+    AAPL
+Name: 2, dtype: str, 'close__2': Ticker
+AAPL    258.859985
+Name: 2, dtype: object, 'date__2': Ticker
+   2026-04-06
+Name: 2, dtype: datetime64[s], 'high__2': Ticker
+AAPL    262.160004
+Name: 2, dtype: object, 'volume__2': Ticker
+AAPL    29329900
+Name: 2, dtype: object, 'low__2': Ticker
+AAPL    256.459991
+Name: 2, dtype: object, 'open__3': Ticker
+AAPL    256.160004
+Name: 3, dtype: object, 'symbol__3': Ticker
+    AAPL
+Name: 3, dtype: str, 'close__3': Ticker
+AAPL    253.5
+Name: 3, dtype: object, 'date__3': Ticker
+   2026-04-07
+Name: 3, dtype: datetime64[s], 'high__3': Ticker
+AAPL    256.200012
+Name: 3, dtype: object, 'volume__3': Ticker
+AAPL    61377300
+Name: 3, dtype: object, 'low__3': Ticker
+AAPL    245.699997
+Name: 3, dtype: object, 'open__4': Ticker
+AAPL    258.51001
+Name: 4, dtype: object, 'symbol__4': Ticker
+    AAPL
+Name: 4, dtype: str, 'close__4': Ticker
+AAPL    258.415009
+Name: 4, dtype: object, 'date__4': Ticker
+   2026-04-08
+Name: 4, dtype: datetime64[s], 'high__4': Ticker
+AAPL    259.749908
+Name: 4, dtype: object, 'volume__4': Ticker
+AAPL    19510257
+Name: 4, dtype: object, 'low__4': Ticker
+AAPL    256.529999
+Name: 4, dtype: object}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2026-04-08 22:29:54,131 | ERROR | Pipeline error: (psycopg2.ProgrammingError) can't adapt type 'Series'
+[SQL: INSERT INTO stock_data (symbol, date, open, high, low, close, volume) SELECT p0::VARCHAR, p1::DATE, p2::FLOAT, p3::FLOAT, p4::FLOAT, p5::FLOAT, p6::FLOAT FROM (VALUES (%(symbol__0)s, %(date__0)s, %(open__0)s, %(high__0)s, %(low__0)s, %(close__0)s, %( ... 437 characters truncated ... 2, p3, p4, p5, p6, sen_counter) ORDER BY sen_counter RETURNING stock_data.id, stock_data.id AS id__1]
+[parameters: {'open__0': Ticker
+AAPL    254.080002
+Name: 0, dtype: object, 'symbol__0': Ticker
+    AAPL
+Name: 0, dtype: str, 'close__0': Ticker
+AAPL    255.630005
+Name: 0, dtype: object, 'date__0': Ticker
+   2026-04-01
+Name: 0, dtype: datetime64[s], 'high__0': Ticker
+AAPL    256.179993
+Name: 0, dtype: object, 'volume__0': Ticker
+AAPL    40059400
+Name: 0, dtype: object, 'low__0': Ticker
+AAPL    253.330002
+Name: 0, dtype: object, 'open__1': Ticker
+AAPL    254.199997
+Name: 1, dtype: object, 'symbol__1': Ticker
+    AAPL
+Name: 1, dtype: str, 'close__1': Ticker
+AAPL    255.919998
+Name: 1, dtype: object, 'date__1': Ticker
+   2026-04-02
+Name: 1, dtype: datetime64[s], 'high__1': Ticker
+AAPL    256.130005
+Name: 1, dtype: object, 'volume__1': Ticker
+AAPL    31289400
+Name: 1, dtype: object, 'low__1': Ticker
+AAPL    250.649994
+Name: 1, dtype: object, 'open__2': Ticker
+AAPL    256.51001
+Name: 2, dtype: object, 'symbol__2': Ticker
+    AAPL
+Name: 2, dtype: str, 'close__2': Ticker
+AAPL    258.859985
+Name: 2, dtype: object, 'date__2': Ticker
+   2026-04-06
+Name: 2, dtype: datetime64[s], 'high__2': Ticker
+AAPL    262.160004
+Name: 2, dtype: object, 'volume__2': Ticker
+AAPL    29329900
+Name: 2, dtype: object, 'low__2': Ticker
+AAPL    256.459991
+Name: 2, dtype: object, 'open__3': Ticker
+AAPL    256.160004
+Name: 3, dtype: object, 'symbol__3': Ticker
+    AAPL
+Name: 3, dtype: str, 'close__3': Ticker
+AAPL    253.5
+Name: 3, dtype: object, 'date__3': Ticker
+   2026-04-07
+Name: 3, dtype: datetime64[s], 'high__3': Ticker
+AAPL    256.200012
+Name: 3, dtype: object, 'volume__3': Ticker
+AAPL    61377300
+Name: 3, dtype: object, 'low__3': Ticker
+AAPL    245.699997
+Name: 3, dtype: object, 'open__4': Ticker
+AAPL    258.51001
+Name: 4, dtype: object, 'symbol__4': Ticker
+    AAPL
+Name: 4, dtype: str, 'close__4': Ticker
+AAPL    258.415009
+Name: 4, dtype: object, 'date__4': Ticker
+   2026-04-08
+Name: 4, dtype: datetime64[s], 'high__4': Ticker
+AAPL    259.749908
+Name: 4, dtype: object, 'volume__4': Ticker
+AAPL    19510257
+Name: 4, dtype: object, 'low__4': Ticker
+AAPL    256.529999
+Name: 4, dtype: object}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2026-04-08 22:35:38,896 | INFO | Fetched data for AAPL
+2026-04-08 22:35:38,898 | INFO | Cleaned data for AAPL
+2026-04-08 22:35:39,407 | INFO | Data stored successfully
+2026-04-08 22:35:39,711 | INFO | Fetched data for MSFT
+2026-04-08 22:35:39,713 | INFO | Cleaned data for MSFT
+2026-04-08 22:35:40,177 | INFO | Data stored successfully
+2026-04-08 22:35:40,429 | INFO | Fetched data for GOOGL
+2026-04-08 22:35:40,431 | INFO | Cleaned data for GOOGL
+2026-04-08 22:35:40,893 | INFO | Data stored successfully
+2026-04-08 22:35:40,894 | INFO | Pipeline completed successfully
+2026-04-09 01:08:04,902 | INFO | Fetched data for AAPL
+2026-04-09 01:08:04,904 | INFO | Cleaned data for AAPL
+2026-04-09 01:08:05,405 | INFO | Data stored successfully
+2026-04-09 01:08:06,278 | INFO | Fetched data for MSFT
+2026-04-09 01:08:06,279 | INFO | Cleaned data for MSFT
+2026-04-09 01:08:06,772 | INFO | Data stored successfully
+2026-04-09 01:08:07,638 | INFO | Fetched data for GOOGL
+2026-04-09 01:08:07,640 | INFO | Cleaned data for GOOGL
+2026-04-09 01:08:08,134 | INFO | Data stored successfully
+2026-04-09 01:08:08,134 | INFO | Pipeline completed successfully
+2026-04-09 13:17:14,013 | INFO | Fetching data for AAPL...
+2026-04-09 13:17:23,970 | INFO | Fetched data for AAPL
+2026-04-09 13:17:23,973 | INFO | Cleaned data for AAPL
+2026-04-09 13:17:24,517 | INFO | Data stored successfully
+2026-04-09 13:17:24,517 | INFO | Successfully processed AAPL
+2026-04-09 13:17:24,517 | INFO | Fetching data for MSFT...
+2026-04-09 13:17:24,783 | INFO | Fetched data for MSFT
+2026-04-09 13:17:24,785 | INFO | Cleaned data for MSFT
+2026-04-09 13:17:25,287 | INFO | Data stored successfully
+2026-04-09 13:17:25,288 | INFO | Successfully processed MSFT
+2026-04-09 13:17:25,288 | INFO | Fetching data for GOOGL...
+2026-04-09 13:17:26,573 | INFO | Fetched data for GOOGL
+2026-04-09 13:17:26,575 | INFO | Cleaned data for GOOGL
+2026-04-09 13:17:27,079 | INFO | Data stored successfully
+2026-04-09 13:17:27,079 | INFO | Successfully processed GOOGL
+2026-04-09 13:17:27,079 | INFO | Pipeline completed successfully

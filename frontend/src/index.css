@@ -1,0 +1,147 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------------------- GLOBAL RESET ---------------------- */
+* {
+  box-sizing: border-box; /* ✅ FIXED (removed @apply) */
+}
+
+/* ---------------------- BASE ---------------------- */
+html, body {
+  @apply h-full bg-dark-bg text-text-primary overflow-x-hidden overflow-y-auto;
+  font-family: 'DM Sans', sans-serif;
+  line-height: 1.6;
+}
+
+#root {
+  @apply h-full w-full;
+}
+
+/* ---------------------- SCROLLBAR ---------------------- */
+::-webkit-scrollbar {
+  width: 8px; /* ❌ removed @apply */
+}
+
+::-webkit-scrollbar-track {
+  background: #0f131c; /* ❌ removed @apply */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4b5563;
+  border-radius: 6px;
+}
+
+/* ---------------------- CARD ---------------------- */
+.card {
+  @apply bg-dark-card border border-border-color rounded-lg p-4 shadow-card transition-all duration-200;
+  backdrop-filter: blur(10px);
+}
+
+.card:hover {
+  @apply bg-dark-card-hover shadow-card-hover;
+  transform: translateY(-3px) scale(1.01);
+}
+
+/* ---------------------- BUTTONS ---------------------- */
+.btn {
+  @apply px-4 py-2 rounded-lg font-medium transition-all duration-200;
+}
+
+.btn-primary {
+  @apply bg-primary text-white shadow-md;
+}
+
+.btn-primary:hover {
+  @apply bg-primary-dark shadow-lg;
+  transform: translateY(-1px);
+}
+
+.btn-secondary {
+  @apply bg-dark-card border border-border-color text-text-primary;
+}
+
+.btn-secondary:hover {
+  @apply bg-dark-card-hover;
+}
+
+.btn-danger {
+  @apply bg-danger text-white;
+}
+
+.btn-danger:hover {
+  @apply bg-red-600;
+}
+
+.btn-success {
+  @apply bg-success text-white;
+}
+
+.btn-success:hover {
+  @apply bg-green-600;
+}
+
+/* ---------------------- FORM ---------------------- */
+.form-input {
+  @apply w-full px-3 py-2 bg-dark-surface border border-border-color rounded-lg text-text-primary placeholder-text-muted;
+  @apply focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary;
+}
+
+.form-label {
+  @apply block text-sm font-medium text-text-secondary mb-1;
+}
+
+/* ---------------------- BADGES ---------------------- */
+.badge {
+  @apply inline-block px-2 py-1 rounded text-xs font-semibold;
+}
+
+.badge-success {
+  @apply bg-green-900 bg-opacity-50 text-success;
+}
+
+.badge-danger {
+  @apply bg-red-900 bg-opacity-50 text-danger;
+}
+
+.badge-warning {
+  @apply bg-yellow-900 bg-opacity-50 text-warning;
+}
+
+/* ---------------------- TEXT ---------------------- */
+.text-muted {
+  @apply text-text-muted;
+}
+
+.text-secondary {
+  @apply text-text-secondary;
+}
+
+/* ---------------------- GRADIENT ---------------------- */
+.gradient-text {
+  @apply bg-gradient-primary bg-clip-text text-transparent;
+}
+
+/* ---------------------- LOADER ---------------------- */
+.loading-card {
+  @apply flex flex-col items-center justify-center gap-4 p-10;
+}
+
+.loader {
+  width: 32px;
+  height: 32px;
+  border: 3px solid rgba(59, 127, 245, 0.2);
+  border-top-color: #3b7ff5;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+.loading-text {
+  @apply text-sm text-text-secondary;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

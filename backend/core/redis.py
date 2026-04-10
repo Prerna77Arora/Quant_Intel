@@ -1,0 +1,1 @@
+# Redis removed - no longer needed
