@@ -1,8 +1,8 @@
-# 🚀 Quant-Intel - AI-Powered Stock Intelligence Platform
+# 🚀 TradeMind - AI-Powered Stock Intelligence Platform
 
 <div align="center">
 
-![Quant-Intel](https://img.shields.io/badge/TradeMind-FinTech-blue?style=for-the-badge&logo=python)
+![TradeMind](https://img.shields.io/badge/TradeMind-FinTech-blue?style=for-the-badge&logo=python)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-blue?style=for-the-badge)
 ![React](https://img.shields.io/badge/React-19+-61DAFB?style=for-the-badge&logo=react)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Latest-336791?style=for-the-badge&logo=postgresql)
@@ -669,7 +669,38 @@ npm run dev
 
 ---
 
+## 📸 Screenshots & Demo
 
+### **1. DataBase**
+
+
+![Loading Screen](DB.png)
+
+---
+
+### **2. User Onboarding - Profile Setup**
+
+#### Risk Appetite Assessment
+*Users define their risk tolerance for AI-personalized recommendations*
+
+![Risk Appetite](Images/risk-appetite.png)
+
+#### Investment Horizon Selection
+*Define investment timeframe to shape recommendation strategy*
+
+![Investment Horizon](Images/investmenthorizon.png)
+
+#### Profile Success
+*Personalized AI trading profile created with customized settings*
+
+![Profile Created](Images/profilecreated.png)
+
+---
+
+### **3. Main Dashboard**
+*Portfolio overview with real-time metrics and performance tracking*
+
+![Dashboard](Images/dashboard.png)
 
 **Features shown:**
 - 📊 Portfolio performance metrics (Total Investment, Total Profit, Unrealized Loss)
@@ -679,6 +710,11 @@ npm run dev
 - ✨ Personalized greeting with profile status
 
 ---
+
+### **4. Stock Analysis Page**
+*AI-powered detailed stock analysis with predictions*
+
+![Stock Analysis](Images/stock-analysis.png)
 
 **Features shown:**
 - 🤖 AI Confidence Score (82% for shown example)
